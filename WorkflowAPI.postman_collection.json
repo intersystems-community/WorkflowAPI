@@ -147,7 +147,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/{{app}}/tasks",
+					"raw": "http://{{host}}:{{port}}/{{app}}/test",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -230,7 +230,7 @@
 		{
 			"id": "f518eeb0-c612-4dfb-82a7-349b65c22a5e",
 			"key": "user",
-			"value": "_SYSTEM",
+			"value": "SuperUser",
 			"type": "string"
 		},
 		{
@@ -248,13 +248,13 @@
 		{
 			"id": "35b0bcb8-a585-4b3b-b43a-461dccd545b6",
 			"key": "port",
-			"value": "57773",
+			"value": "52773",
 			"type": "string"
 		},
 		{
 			"id": "64da587a-5360-4c72-8f91-97cb2779745a",
 			"key": "app",
-			"value": "/wf/api2",
+			"value": "workflow/rest",
 			"type": "string"
 		}
 	]
