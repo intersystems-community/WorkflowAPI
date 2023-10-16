@@ -6,7 +6,7 @@ UI client is available [here](https://github.com/intersystems-ru/workflowUI-ngx)
 
 ## Installation
 1. Import and compile this [isc.wf.REST](https://raw.githubusercontent.com/intersystems-ru/WorkflowAPI/master/isc/wf/REST.cls).
-2. Create a web-application for REST in the Portal Management System (for ex. `/csp/workflow/rest`). Set dispatch class to `isc.wf.REST`, Authentication methods to 'Unauthorized' and 'Password'.
+2. Create a web-application for REST in the Portal Management System (for ex. `/workflow/rest`). Set dispatch class to `isc.wf.REST`, Authentication methods to 'Unauthorized' and 'Password'.
 3. (Optional) Add `isc.wf` package mapping if you need to query another namespace.
 
 
