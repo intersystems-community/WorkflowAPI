@@ -3,7 +3,7 @@
   <Document name="workflow-rest.ZPM">
     <Module>
       <Name>workflow-rest</Name>
-      <Version>1.1.2</Version>
+      <Version>1.1.3</Version>
       <Description>Restful web API for InterSystems Ensemble / InterSystems IRIS Workflow</Description>
       <Packaging>module</Packaging>
       <Resource Name="isc.PKG"/>
