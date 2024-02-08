@@ -138,3 +138,30 @@ Here's an example of a user modifying `308||dev` task (by choosing Save action):
 # Images and Links
 
 If some of your form fields are links and/or images, you can use a special form field: `$$$Handler`. Set it like this `{"myLink":"link","myImg":"img"}` where `myLink` is a name of a form field containig the link and `myImg` is a name of a form field containig the image. [WorkflowUI-ngx](https://github.com/intersystems-ru/workflowUI-ngx) would display them appropriately.
+
+
+# DOCKER Support
+### Prerequisites   
+Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.    
+### Installation    
+Clone/git pull the repo into any local directory
+```
+$ git clone https://github.com/intersystems-community/WorkflowAPI.git
+```
+Open the terminal in this directory and run:
+```
+$ docker-compose build
+```
+Run IRIS container with your project:
+```
+$ docker-compose up -d
+```
+Test from docker console
+```
+$ docker-compose exec iris1 iris session iris
+USER>
+```
+or using **WebTerminal**
+```
+http://localhost:42773/terminal/
+```
